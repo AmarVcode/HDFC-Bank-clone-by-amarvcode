@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDFC Bank - Personal Banking</title>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAAAe1BMVEXtIyr///8ATI/vTVHtHybuOj/vR0v72NnsAAnsAAT609TsBBP84eL4t7n4wMHuO0HwYWXtGiKarMcAQoqCmLrh5u4AOofY4Or++PjuNzzsERv60NH+9fXwXGD1mZv1oKHv8vYALoLuLDP5xMXxa28AMoN5kbb2qqvwVlq0k2IzAAACMElEQVR4nO3d3VLCMBBA4VTENKgg/mBbQFBA+/5PqPeGmdTsdiNzzgPs7nfbmbZuO9Fv4avmd5VfjLB766bX+gVfxfJhhN3tj9CpV58R1vqrr6cIRUKoGEKhECqGUCiEiiEUCqFiCIVCqBhCoRAqhlAohIohFAqhYgiFQqgYQqEQKoZQKISKIRTqXwi7OqMwiwtDztBOVti9+dnfW2+iws06Y6bfJRGThbf30RstO9xeunCOECFC8xAiRGgfQoQI7UOIEKF9CBEitA8hQoT2IUSI0D6ECBHahxAhQvuMhPvH/PZFC1/en3J7fy1buLrKbYUQIUKECBEiRIgQIUKECBEiRBgTtsuUL7nWBQrrlMOXrZtMFwl9zIsTHj5SDp9OXNq41EYUpuYa0XHlCRuEA0OIEOHwEA4NIUKEw0M4NIQIEQ4P4dAQItQQio4rUFi540NK/aE44bpPuvzo2mVKocAnwiHp8tS/kv3np/oIESJEiBAhQoQIESJEiBAhQoQR4Sn7DctT2cL953Nuny9FC0cMIUKE9iFEiNA+hAgR2ocQIUL7ECJEaB9ChAjtQ4gQoX0IESK0DyFChPZdvlD47/Hd7i6n+CuATdbMr05U6LqQ0ywq9Fkzk4ADhFnVPi6s9VcjFAqhYgiFQqgYQqEQKoZQKISKIRQKoWIIhUKoGEKhECqGUCiEiiEUCqFiCIVCqBhCoRAqhlAoa6F+4YwwjLC7df2Nfq2vmt9Vvh1hd/8NC+gAazTwAwsAAAAASUVORK5CYII=" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Scroll Down</h2>
+        <p>Scroll down to see the sticky effect.</p>
+      </div>
+      
+      <div id="navbar">
+        <a class="active" href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)">News</a>
+        <a href="javascript:void(0)">Contact</a>
+      </div>
+      
+      <div class="content">
+        <h3>Sticky Navigation Example</h3>
+        <p>The navbar will stick to the top when you reach its scroll position.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      </div>
+      
+      <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+      
+</body>
+</html>
