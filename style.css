@@ -5,9 +5,11 @@ body {
 
 .header {
   width: 100%;
-  background-color: rgba(8, 10, 62, 0.671);
+  background-color: rgb(4, 5, 45);
   padding: 0rem 5rem;
   box-sizing: border-box;
+  position: fixed;
+  display: flex;
 }
 
 #logo {
@@ -25,6 +27,7 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #333;
+  top: 6vh;
 }
 
 #navbar a {
