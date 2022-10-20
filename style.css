@@ -432,6 +432,7 @@ text-align: right;
 text-decoration: none;
 width: 100%;
 display: inline-block;
+color: blue;
 }
 
 
@@ -452,10 +453,14 @@ font-size: 1.5rem;
 .box1>div:nth-child(2)>div h3{
  font-size: 1.1rem;
  font-weight: 600;
+
 }
 
 .box1>div:nth-child(2)>div p{
   font-size: .9rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.566);
+  padding: .5rem;
+  box-sizing: border-box;
  }
 
  .box1>div:nth-child(2)>div a{
@@ -463,6 +468,7 @@ font-size: 1.5rem;
   width: 100%;
   display: inline-block;
   text-align: right;
+  color: blue;
  }
 
  .box1>div:nth-child(3) h2{
@@ -472,7 +478,19 @@ font-size: 1.5rem;
  }
 
  .box1>div:nth-child(3)>div{
-  color: rgba(0, 0, 0, 0.699);
-  font-weight: 600;
-  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  background-color: white;
+  padding: 1rem;
+   margin: .8rem;
+ }
+
+ .box1>div:nth-child(3)>div>a{
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.566);
+  padding: .8rem;
+  box-sizing: border-box;
+  color: blue;
+  font-size: .9rem;
  }
