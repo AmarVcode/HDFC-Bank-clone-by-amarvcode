@@ -4,7 +4,7 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-*{
+* {
   box-sizing: border-box;
   cursor: pointer;
   user-select: none;
@@ -349,36 +349,35 @@ marquee {
 .box1 {
   display: grid;
   grid-template-columns: 50% 25% 25%;
- 
+
 }
 
 .box1>div:nth-child(1) h2 {
-color: rgba(0, 0, 0, 0.699);
-font-weight: 600;
-font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.699);
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .box1>div:nth-child(1)>div {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   background-color: white;
   padding: 1rem;
-   margin: .8rem;
+  margin: .8rem;
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(1){
+.box1>div:nth-child(1)>div>div:nth-child(1) {
   background-color: rgba(255, 166, 0, 0.311);
   padding: .5rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: .4rem;
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(1) h2{
+.box1>div:nth-child(1)>div>div:nth-child(1) h2 {
   font-size: 1.2rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.635);
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(1) p{
+.box1>div:nth-child(1)>div>div:nth-child(1) p {
   font-size: .8rem;
   color: rgba(0, 0, 0, 0.635);
 }
@@ -386,24 +385,23 @@ font-size: 1.5rem;
 
 
 
-.box1>div:nth-child(1)>div>div:nth-child(2){
+.box1>div:nth-child(1)>div>div:nth-child(2) {
   background-color: rgba(0, 255, 76, 0.311);
   padding: .5rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: .4rem;
 }
 
-.box1>div>div:hover{
+.hover:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(2) h2{
+.box1>div:nth-child(1)>div>div:nth-child(2) h2 {
   font-size: 1.2rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.635);
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(2) p{
+.box1>div:nth-child(1)>div>div:nth-child(2) p {
   font-size: .8rem;
   color: rgba(0, 0, 0, 0.635);
 }
@@ -418,84 +416,83 @@ font-size: 1.5rem;
 
 
 
-.box1>div:nth-child(1)>div>div:nth-child(3){
+.box1>div:nth-child(1)>div>div:nth-child(3) {
   background-color: rgba(204, 0, 255, 0.311);
   padding: .5rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: .4rem;
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(3) h2{
+.box1>div:nth-child(1)>div>div:nth-child(3) h2 {
   font-size: 1.2rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.635);
 }
 
-.box1>div:nth-child(1)>div>div:nth-child(3) p{
+.box1>div:nth-child(1)>div>div:nth-child(3) p {
   font-size: .8rem;
   color: rgba(0, 0, 0, 0.635);
 }
 
 
 
-.box1>div:nth-child(1)>div a{
-text-align: right;
-text-decoration: none;
-width: 100%;
-display: inline-block;
-color: blue;
+.box1>div:nth-child(1)>div a {
+  text-align: right;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  color: blue;
 }
 
 
 
-.box1>div:nth-child(2) h2{
-color: rgba(0, 0, 0, 0.699);
-font-weight: 600;
-font-size: 1.5rem;
+.box1>div:nth-child(2) h2 {
+  color: rgba(0, 0, 0, 0.699);
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-.box1>div:nth-child(2)>div{
+.box1>div:nth-child(2)>div {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   background-color: white;
   padding: 1rem;
-   margin: .8rem;
+  margin: .8rem;
 }
 
-.box1>div:nth-child(2)>div h3{
- font-size: 1.1rem;
- font-weight: 600;
+.box1>div:nth-child(2)>div h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
 
 }
 
-.box1>div:nth-child(2)>div p{
+.box1>div:nth-child(2)>div p {
   font-size: .9rem;
   border-bottom: 1px solid rgba(128, 128, 128, 0.566);
   padding: .5rem;
   box-sizing: border-box;
- }
+}
 
- .box1>div:nth-child(2)>div a{
+.box1>div:nth-child(2)>div a {
   text-decoration: none;
   width: 100%;
   display: inline-block;
   text-align: right;
   color: blue;
- }
+}
 
- .box1>div:nth-child(3) h2{
+.box1>div:nth-child(3) h2 {
   color: rgba(0, 0, 0, 0.699);
   font-weight: 600;
   font-size: 1.5rem;
- }
+}
 
- .box1>div:nth-child(3)>div{
+.box1>div:nth-child(3)>div {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   background-color: white;
   padding: 1rem;
-   margin: .8rem;
- }
+  margin: .8rem;
+}
 
- .box1>div:nth-child(3)>div a{
+.box1>div:nth-child(3)>div a {
   text-decoration: none;
   display: inline-block;
   width: 100%;
@@ -504,9 +501,9 @@ font-size: 1.5rem;
   box-sizing: border-box;
   color: blue;
   font-size: .9rem;
- }
+}
 
- #login{
+#login {
   border: none;
   color: white;
   background-color: blue;
@@ -517,42 +514,154 @@ font-size: 1.5rem;
   cursor: pointer;
   border: 1px solid blue;
   transition: 500ms;
-   display: block;
- }
+  display: block;
+}
 
- #login:hover{
+#login:hover {
   background-color: midnightblue;
   color: white;
   border-color: white;
- 
- }
 
- #login-container{
-width: 300px;
-top: 70px;
-cursor: pointer;
-background-color: white;
+}
 
- }
+#login-container {
+  width: 300px;
+  top: 70px;
+  cursor: pointer;
+  background-color: white;
 
- #login-container div{
-border: none;
-padding: 10px;
- }
+}
 
- #login-container>div h2{
+#login-container div {
+  border: none;
+  padding: 10px;
+}
+
+#login-container>div h2 {
   font-size: 1rem;
   font-weight: 600;
- }
+}
 
- #login-container>div a{
+#login-container>div a {
   color: blue !important;
- }
+}
 
- #login-container>div p{
+#login-container>div p {
   font-size: .9rem;
- }
+}
 
- #login-container>div h2:hover{
-color: blue;
- }
+#login-container>div h2:hover {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2 {
+  width: 100%;
+}
+
+.box2 h2 {
+  font-size: 1.5rem;
+  color: rgb(66, 66, 66);
+  font-weight: 600;
+}
+
+.box2>div {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.box2>div>div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1rem;
+  margin: .4rem;
+  background-color: white;
+}
+
+.box2>div h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+
+.box2>div p {
+  font-size: 1rem;
+  margin: auto;
+  font-weight: lighter;
+}
+
+.box2>div>div>div {
+  width: 30vh;
+  height: 10vh;
+  background-color: rgba(27, 27, 106, 0.644);
+  margin: 2em auto;
+
+}
+
+.box2 a{
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.box3{
+  width: 100%;
+}
+
+.box3 h2{
+  font-size: 1.5rem;
+  color: rgb(79, 79, 79);
+  font-weight: 600;
+}
+
+.box3>div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.box3>div div{
+  height: 20vh;
+  background-color: rgba(255, 0, 0, 0.429);
+  margin: .5rem;
+}
+
+footer{
+  display: grid;
+  background-color: midnightblue;
+  padding: 5rem;
+  grid-template-columns: 25% 25% 25% 25%;
+  color: white;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: .5rem;
+  transition: 400ms;
+}
+
+footer a:hover{
+color: red;
+}
