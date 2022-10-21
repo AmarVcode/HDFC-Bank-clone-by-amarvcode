@@ -4,6 +4,13 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+*{
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  scrollbar-width: none;
+}
+
 #fixedexample {
   box-sizing: border-box;
   background-color: white;
@@ -250,7 +257,7 @@ marquee {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: white;
   width: 80vw;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -484,7 +491,7 @@ font-size: 1.5rem;
    margin: .8rem;
  }
 
- .box1>div:nth-child(3)>div>a{
+ .box1>div:nth-child(3)>div a{
   text-decoration: none;
   display: inline-block;
   width: 100%;
@@ -493,4 +500,55 @@ font-size: 1.5rem;
   box-sizing: border-box;
   color: blue;
   font-size: .9rem;
+ }
+
+ #login{
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: .8rem;
+  font-size: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid blue;
+  transition: 500ms;
+   display: block;
+ }
+
+ #login:hover{
+  background-color: midnightblue;
+  color: white;
+  border-color: white;
+ 
+ }
+
+ #login-container{
+width: 300px;
+top: 70px;
+cursor: pointer;
+background-color: white;
+
+ }
+
+ #login-container div{
+border: none;
+padding: 10px;
+ }
+
+ #login-container>div h2{
+  font-size: 1rem;
+  font-weight: 600;
+ }
+
+ #login-container>div a{
+  color: blue !important;
+ }
+
+ #login-container>div p{
+  font-size: .9rem;
+ }
+
+ #login-container>div h2:hover{
+color: blue;
  }
